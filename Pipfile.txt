@@ -1,0 +1,13 @@
+# Do not include azure-functions-worker as it may conflict with the Azure Functions platform
+
+flask = "*"
+requests = "*"
+flask-bootstrap = "*"
+flask-restplus = "*"
+flask-swagger-ui = "*"
+werkzeug = "===0.16.1"
+azure-functions = "*"
+azure-cosmos = "*"
+pymongo = "*"
+azure-cli-core = "*"
+feedgen = "*"
